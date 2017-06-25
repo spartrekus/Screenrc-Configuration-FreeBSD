@@ -1,0 +1,13 @@
+hardstatus alwayslastline "%{= Yk}%H %{= yk}%-Lw%{= kG}%50> %n%f* %t %{-}%+Lw%< %=  %{= yk} %l %{= Yk} %0c:%s %d/%m %{-}"
+backtick 200 5 5 date +%H:%M
+caption always '%{= kY} %200` %= %100` %='
+bindkey -k F1 prev
+bindkey -k F2 next
+bindkey -k F3 select 0
+bindkey -k F4 select 1
+bindkey -k F5 select 2
+bindkey -k F6 select 3
+bindkey -k F7 select 4
+bindkey -k F8 select 5
+bindkey -k F9 select 6
+
